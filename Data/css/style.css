@@ -13,7 +13,7 @@ body {
 }
 
 img {
-  min-width: 100%;
+  max-width: 100%;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -442,16 +442,19 @@ template {
     line-height: 15px;
   }
   .search__input {
-    min-width: 340px;
+    max-width: 340px;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .container__search {
-    min-width: 576px;
+    max-width: 576px;
     width: 92%;
   }
   .navbar__search, .navbar-menu, .navbar__user {
     display: none;
+  }
+  .navbar-top__menu-button {
+    display: flex;
   }
   .menu-button {
     display: flex;

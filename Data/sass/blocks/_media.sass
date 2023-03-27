@@ -20,15 +20,18 @@
         line-height: 15px
   .search
     &__input
-      min-width: 340px
-@media (min-width: 768px)
+      max-width: 340px
+@media (max-width: 768px)
   .container
     &__search
-      min-width: 576px
+      max-width: 576px
       width: 92%
   .navbar
     &__search, &-menu, &__user
-      display: none        
+      display: none    
+    &-top
+      &__menu-button  
+        display: flex  
   .menu
     &-button
       display: flex
