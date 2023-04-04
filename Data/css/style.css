@@ -638,6 +638,11 @@ template {
   background-image: url(/Data/img/arrow-prev.svg);
 }
 
+.swiper-slide {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
